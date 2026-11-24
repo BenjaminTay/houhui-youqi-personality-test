@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="cover" content="./lakeside.webp" />
+    <meta name="theme-color" content="#f5f1e7" />
+    <meta
+      name="description"
+      content="我最像《后会友期》里的哪位嘉宾？拆开四封来信，答完24道日常情境题，在八位同行嘉宾中找到你的答案。"
+    />
+    <title>后会友期 · 我最像哪位嘉宾？｜旧友邮局</title>
+    <link rel="icon" href="./post.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <button class="brand" id="home" aria-label="旧友邮局首页">
+          <b aria-hidden="true">✉</b><span>旧友邮局</span
+          ><i>Old Friends Post</i></button
+        ><button id="about" class="about">
+          关于邮局 <span aria-hidden="true">↗</span>
+        </button>
+      </div>
+    </header>
+    <main id="app" tabindex="-1"></main>
+    <footer>
+      <span>旧友邮局 <i>Old Friends Post</i></span
+      ><span>《后会友期》非官方主题测试</span>
+    </footer>
+    <dialog id="dialog">
+      <button class="close" aria-label="关闭">×</button>
+      <div id="dialog-body"></div>
+    </dialog>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
